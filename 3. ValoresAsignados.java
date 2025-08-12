@@ -1,6 +1,4 @@
 
-import java.util.Scanner;
-
 public class ValoresAsignados {
     public static void main(String[] args){
         String nombre = "Gonzalo Santini";
