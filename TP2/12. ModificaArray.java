@@ -6,22 +6,19 @@ public class ModificaArray {
     
     static void PreciosOriginales(){
         
-        for(int i = 0; i < precios.length; i++){
-        System.out.println(precios[i]);
+        for(double precio : precios){
+        System.out.println(precio);
         }
     }
-    
-    
+        
     static void PreciosModificados(int aModificar, double nuevoPrecio){
         precios[aModificar] = nuevoPrecio;
         
-        for(int i = 0; i < precios.length; i++){
-        System.out.println(precios[i]);
+        for(double precio : precios){
+        System.out.println(precio);
         }
     }
     
-
-
     public static void main(String args[]) {
       Scanner input = new Scanner(System.in);
       int producto;
