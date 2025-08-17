@@ -20,10 +20,8 @@ public class CostoTotalEnvio {
     }
     
   public static void main(String args[]) {
-    double total, envio;
-    
     Scanner input = new Scanner(System.in);
-    double peso, precioProducto;
+    double peso, precioProducto, total, envio;
     String zona;
     
     System.out.print("Ingrese el precio del producto: ");
